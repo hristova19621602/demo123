@@ -2,7 +2,7 @@ package modules;
 
 import java.util.Objects;
 
-public class modul {
+public class modul<String> {
     private String name;
     private int age;
     private int iii;

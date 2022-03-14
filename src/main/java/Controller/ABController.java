@@ -5,4 +5,12 @@ public class ABController {
 
     public ABController() {
     }
+
+    public Double getNeshtosi() {
+        return neshtosi;
+    }
+
+    public void setNeshtosi(Double neshtosi) {
+        this.neshtosi = neshtosi;
+    }
 }

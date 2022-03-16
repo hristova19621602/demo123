@@ -3,6 +3,16 @@ package Controller;
 public class ABController {
     Double neshtosi;
 
+    public int getAbv() {
+        return abv;
+    }
+
+    public void setAbv(int abv) {
+        this.abv = abv;
+    }
+
+    int abv;
+
     public ABController() {
     }
 

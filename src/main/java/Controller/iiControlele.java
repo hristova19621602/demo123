@@ -4,6 +4,7 @@ public class iiControlele {
 
     int age;
     int pages;
+    String name = "";
 
 
     public int getAge() {
@@ -20,5 +21,9 @@ public class iiControlele {
 
     public void setPages(int pages) {
         this.pages = pages;
+    }
+
+    public String getName() {
+        return name;
     }
 }
